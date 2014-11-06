@@ -10,7 +10,7 @@
  */
 
 var config = {
-    name: 'Blak Bot',
+    name: 'dcae.bot',
     userid: function () {
         return toId(this.name);
     },
@@ -26,7 +26,7 @@ var config = {
     },
     privaterooms: ['staff'],
     hosting: {},
-    laddering: true,
+    laddering: false,
     ladderPercentage: 70,
     debug: false
 };
