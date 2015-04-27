@@ -387,7 +387,7 @@ var core = exports.core = {
 	':wooper:': 'http://cbc.pokecommunity.com/config/emoticons/wooper.png',
 	':wynaut:': 'http://cbc.pokecommunity.com/config/emoticons/wynaut.png',
 	':y:': 'http://cbc.pokecommunity.com/config/emoticons/y.png',
-	':yoshi:': 'http://cbc.pokecommunity.com/config/emoticons/yoshi.png'
+	':yoshi:': 'http://cbc.pokecommunity.com/config/emoticons/yoshi.png',
         ':$': 'http://factoryjoe.s3.amazonaws.com/emoticons/emoticon-0111-blush.gif',
         ':D': 'http://factoryjoe.s3.amazonaws.com/emoticons/emoticon-0102-bigsmile.gif',
         ':*': 'http://factoryjoe.s3.amazonaws.com/emoticons/emoticon-0109-kiss.gif',
