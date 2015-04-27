@@ -10,7 +10,7 @@
  */
 
 var config = {
-    name: 'Anrins-Bot',
+    name: 'Friendy-Bot',
     userid: function () {
         return toId(this.name);
     },
@@ -27,7 +27,7 @@ var config = {
     privaterooms: ['staff'],
     hosting: {},
     laddering: false,
-    ladderPercentage: 70,
+    ladderPercentage: 80,
     debug: false
 };
 
@@ -348,7 +348,7 @@ var commands = {
             if (target === 'zarel') message = 'Pokemon Showdown Creator.';
             if (target === 'indiancharizard#') message = 'Best Charizard in the world.';
             if (target === 'zincoxide') message = 'The Greatest Fan of Naruto﻿';
-            if (target === 'roxyjadhav') message = 'The Queen of Eevee's;
+            if (target === 'roxyjadhav') message = 'The Eevee Queen';
 
             this.sendReply(message);
         };
@@ -375,6 +375,7 @@ var commands = {
             "Ask again later.",
             "My reply is no.",
             "Outlook good.",
+            "Ask Anrin about that.",
             "Don't count on it."
         ];
 
