@@ -1012,6 +1012,33 @@ var commands = exports.commands = {
 		targetUser.resetName();
 		targetUser.send("|nametaken||" + user.name + " has forced you to change your name. " + target);
 	},
+	frt: 'forcerenameto',
+        forcerenameto: function(target, room, user) {
+                if (!target) return this.parse('/help forcerenameto');
+                target = this.splitTarget(target);
+                var targetUser = this.targetUser;
+                if (!targetUser) {
+                        return this.sendReply('User '+this.targetUsername+' not found.');
+               }
+                if (!target) {
+                        return this.sendReply('No new name was specified.');
+                }
+               if (!this.can('declare', targetUser)) return false;
+
+                if (targetUser.userid === targetUser.userid) {
+                        var entry = ''+targetUser.name+' was forcibly renamed to '+target+' by '+user.name+'.';
+                        this.logModCommand(entry);
+                        Rooms.lobby.sendAuth('(' + entry + ')');
+                        if (room.id !== 'lobby') {
+                                room.add(entry);
+                       } else {
+                                room.logEntry(entry);
+                        }
+                       targetUser.forceRename(target, undefined, true);
+               } else {
+                        this.sendReply("User "+targetUser.name+" is no longer using that name.");
+                }
+        },
 
 	modlog: function (target, room, user, connection) {
 		var lines = 0;
