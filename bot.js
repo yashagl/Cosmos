@@ -10,7 +10,7 @@
  */
 
 var config = {
-    name: 'dcae.bot',
+    name: 'Anrins-Bot',
     userid: function () {
         return toId(this.name);
     },
@@ -22,7 +22,7 @@ var config = {
         2: 'mute',
         3: 'hourmute',
         4: 'roomban',
-        5: 'ban'
+        5: 'lock'
     },
     privaterooms: ['staff'],
     hosting: {},
@@ -303,11 +303,6 @@ var commands = {
         this.parse('/tell ' + toId(parts[0]) + ', ' + Tools.escapeHTML(parts[1]));
         this.sendReply('Message sent to ' + parts[0] + '.');
     },
-
-    penislength: function (target, room, user) {
-        this.sendReply('8.5 inches from the base. Perv.');
-    },
-
     seen: function (target, room, user, connection) {
         if (!target) return;
         if (!toId(target) || toId(target).length > 18) return connection.sendTo(room, 'Invalid username.');
