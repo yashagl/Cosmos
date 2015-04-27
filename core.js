@@ -66,9 +66,9 @@ var core = exports.core = {
 
     profile: {
 
-        color: '#5130AB',
+        color: 'royalblue',
 
-        avatarurl: 'http://107.161.19.15:8000',
+        avatarurl: 'http://cbc.pokecommunity.com/config',
 
         avatar: function (online, user, img) {
             if (online === true) {
@@ -319,16 +319,75 @@ var core = exports.core = {
     },
 
     emoticons: {
-        'Kappa': 'http://static-cdn.jtvnw.net/jtv_user_pictures/emoticon-2867-src-f02f9d40f66f0840-28x28.png',
-        'PogChamp': 'http://static-cdn.jtvnw.net/jtv_user_pictures/chansub-global-emoticon-60aa1af305e32d49-23x30.png',
-        'BloodTrail': 'http://static-cdn.jtvnw.net/jtv_user_pictures/chansub-global-emoticon-f124d3a96eff228a-41x28.png',
-        'BibleThump': 'http://static-cdn.jtvnw.net/jtv_user_pictures/chansub-global-emoticon-f6c13c7fc0a5c93d-36x30.png',
-        'feelsgd': 'http://i.imgur.com/9gj1oPV.png',
-        'feelsbd': 'http://i.imgur.com/Ehfkalz.gif',
         ':(': 'http://factoryjoe.s3.amazonaws.com/emoticons/emoticon-0101-sadsmile.gif',
         ':)': 'http://factoryjoe.s3.amazonaws.com/emoticons/emoticon-0100-smile.gif',
         ';(': 'http://factoryjoe.s3.amazonaws.com/emoticons/emoticon-0106-crying.gif',
         ';)': 'http://factoryjoe.s3.amazonaws.com/emoticons/emoticon-0105-wink.gif',
+        ':absol:': 'http://cbc.pokecommunity.com/config/emoticons/absol.png',
+		':arceus:': 'http://cbc.pokecommunity.com/config/emoticons/arceus.png',
+		':armycat:': 'http://cbc.pokecommunity.com/config/emoticons/armycat.png',
+		':azelf:': 'http://cbc.pokecommunity.com/config/emoticons/azelf.png',
+		':bidoof:': 'http://cbc.pokecommunity.com/config/emoticons/bidoof.png',
+		':bye:': 'http://cbc.pokecommunity.com/config/emoticons/bye.gif',
+		':castform:': 'http://cbc.pokecommunity.com/config/emoticons/castform.png',
+		':catflip:': 'http://cbc.pokecommunity.com/config/emoticons/catflip.png',
+		':charizard:': 'http://cbc.pokecommunity.com/config/emoticons/charizard.png',
+		':clown:': 'http://cbc.pokecommunity.com/config/emoticons/clown.png',
+		':cookie:': 'http://cbc.pokecommunity.com/config/emoticons/cookie.png',
+		':dk:': 'http://cbc.pokecommunity.com/config/emoticons/dk.png',
+		':electrode:': 'http://cbc.pokecommunity.com/config/emoticons/electrode.png',
+		':espurr:': 'http://cbc.pokecommunity.com/config/emoticons/espurr.png',
+		':flirt:': 'http://cbc.pokecommunity.com/config/emoticons/flirt.png',
+		':gav:': 'http://cbc.pokecommunity.com/config/emoticons/gav.png',
+		':gloom:': 'http://cbc.pokecommunity.com/config/emoticons/gloom.png',
+		':growlithe:': 'http://cbc.pokecommunity.com/config/emoticons/growlithe.png',
+		':hamster:': 'http://cbc.pokecommunity.com/config/emoticons/hamster.png',
+		':helix:': 'http://cbc.pokecommunity.com/config/emoticons/helix.png',
+		':houndoom:': 'http://cbc.pokecommunity.com/config/emoticons/houndoom.png',
+		':jigglypuff:': 'http://cbc.pokecommunity.com/config/emoticons/jigglypuff.png',
+		':jynx:': 'http://cbc.pokecommunity.com/config/emoticons/jynx.png',
+		':kappa:': 'http://cbc.pokecommunity.com/config/emoticons/kappa.png',
+		':keepo:': 'http://cbc.pokecommunity.com/config/emoticons/keepo.png',
+		':kermit:': 'http://cbc.pokecommunity.com/config/emoticons/kermit.png',
+		':kreygasm:': 'http://cbc.pokecommunity.com/config/emoticons/kreygasm.png',
+		':lapras:': 'http://cbc.pokecommunity.com/config/emoticons/lapras.png',
+		':lileep:': 'http://cbc.pokecommunity.com/config/emoticons/lileep.png',
+		':ludicolo:': 'http://cbc.pokecommunity.com/config/emoticons/ludicolo.png',
+		':luvdisc:': 'http://cbc.pokecommunity.com/config/emoticons/luvdisc.png',
+		':magikarp:': 'http://cbc.pokecommunity.com/config/emoticons/magikarp.png',
+		':meganium:': 'http://cbc.pokecommunity.com/config/emoticons/meganium.png',
+		':meowstic:': 'http://cbc.pokecommunity.com/config/emoticons/meowstic.png',
+		':meowsticf:': 'http://cbc.pokecommunity.com/config/emoticons/meowsticf.png',
+		':metagross:': 'http://cbc.pokecommunity.com/config/emoticons/metagross.png',
+		':moo:': 'http://cbc.pokecommunity.com/config/emoticons/moo.gif',
+		':nw:': 'http://cbc.pokecommunity.com/config/emoticons/nw.gif',
+		':oddish:': 'http://cbc.pokecommunity.com/config/emoticons/oddish.png',
+		':pear:': 'http://cbc.pokecommunity.com/config/emoticons/pear.png',
+		':pjsalt:': 'http://cbc.pokecommunity.com/config/emoticons/pjsalt.png',
+		':pogchamp:': 'http://cbc.pokecommunity.com/config/emoticons/pogchamp.png',
+		':potato:': 'http://cbc.pokecommunity.com/config/emoticons/potato.png',
+		':psyduck:': 'http://cbc.pokecommunity.com/config/emoticons/psyduck.png',
+		':pyoshi:': 'http://cbc.pokecommunity.com/config/emoticons/pyoshi.png',
+		':seduce:': 'http://cbc.pokecommunity.com/config/emoticons/seduce.png',
+		':senpai:': 'http://cbc.pokecommunity.com/config/emoticons/senpai.png',
+		':sims:': 'http://cbc.pokecommunity.com/config/emoticons/sims.png',
+		':slowpoke:': 'http://cbc.pokecommunity.com/config/emoticons/slowpoke.png',
+		':snorlax:': 'http://cbc.pokecommunity.com/config/emoticons/snorlax.png',
+		':spheal:': 'http://cbc.pokecommunity.com/config/emoticons/spheal.png',
+		':sri:': 'http://cbc.pokecommunity.com/config/emoticons/sri.png',
+		':strut:': 'http://cbc.pokecommunity.com/config/emoticons/strut.png',
+		':suicune:': 'http://cbc.pokecommunity.com/config/emoticons/suicune.png',
+		':superman:': 'http://cbc.pokecommunity.com/config/emoticons/superman.png',
+		':sweep:': 'http://cbc.pokecommunity.com/config/emoticons/sweep.gif',
+		':taco:': 'http://cbc.pokecommunity.com/config/emoticons/taco.png',
+		':vulpix:': 'http://cbc.pokecommunity.com/config/emoticons/vulpix.png',
+		':weezing:': 'http://cbc.pokecommunity.com/config/emoticons/weezing.png',
+		':why:': 'http://cbc.pokecommunity.com/config/emoticons/why.png',
+		':wobbuffet:': 'http://cbc.pokecommunity.com/config/emoticons/wobbuffet.png',
+		':wooper:': 'http://cbc.pokecommunity.com/config/emoticons/wooper.png',
+		':wynaut:': 'http://cbc.pokecommunity.com/config/emoticons/wynaut.png',
+		':y:': 'http://cbc.pokecommunity.com/config/emoticons/y.png',
+		':yoshi:': 'http://cbc.pokecommunity.com/config/emoticons/yoshi.png'
         ':$': 'http://factoryjoe.s3.amazonaws.com/emoticons/emoticon-0111-blush.gif',
         ':D': 'http://factoryjoe.s3.amazonaws.com/emoticons/emoticon-0102-bigsmile.gif',
         ':*': 'http://factoryjoe.s3.amazonaws.com/emoticons/emoticon-0109-kiss.gif',
@@ -374,25 +433,31 @@ var core = exports.core = {
     },
 
     processEmoticons: function (text) {
-        var patterns = [],
-            metachars = /[[\]{}()*+?.\\|^$\-,&#\s]/g,
-            self = this;
+		var patterns = [],
+			metachars = /[[\]{}()*+?.\\|^$\-,&#\s]/g,
+			self = this;
 
-        for (var i in this.emoticons) {
-            if (this.emoticons.hasOwnProperty(i)) {
-                patterns.push('(' + i.replace(metachars, "\\$&") + ')');
-            }
-        }
+		for (var i in this.emoticons) {
+			if (this.emoticons.hasOwnProperty(i)) {
+				patterns.push('(' + i.replace(metachars, "\\$&") + ')');
+			}
+		}
 
-        return text.replace(new RegExp(patterns.join('|'), 'g'), function (match) {
-            if (match === 'feelsbd' || match === 'feelsgd') return typeof self.emoticons[match] != 'undefined' ?
-                '<img src="' + self.emoticons[match] + '" title="' + match + '" width="30" height="30"/>' :
-                match;
-            return typeof self.emoticons[match] != 'undefined' ?
-                '<img src="' + self.emoticons[match] + '" title="' + match + '"/>' :
-                match;
-        });
-    },
+		return text.replace(new RegExp(patterns.join('|'), 'g'), function (match) {
+			if (match === ':gav:' || match === ':kermit:' || match === ':nw:' || match === ':superman:' || match === ':sweep:' || match === ':yoshi:') return typeof self.emoticons[match] != 'undefined' ?
+				'<img src="' + self.emoticons[match] + '" title="' + match + '" width="30" height="30"/>' :
+				match;
+			if (match === ':catflip:') return typeof self.emoticons[match] != 'undefined' ?
+				'<img src="' + self.emoticons[match] + '" title="' + match + '" width="44" height="32"/>' :
+				match;
+			if (match === ':strut:') return typeof self.emoticons[match] != 'undefined' ?
+				'<img src="' + self.emoticons[match] + '" title="' + match + '" width="23" height="33"/>' :
+				match;
+			return typeof self.emoticons[match] != 'undefined' ?
+				'<img src="' + self.emoticons[match] + '" title="' + match + '"/>' :
+				match;
+		});
+	},
 
     processChatData: function (user, room, connection, message) {
         var match = false;
