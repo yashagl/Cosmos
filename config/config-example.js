@@ -1,10 +1,13 @@
 // The server port - the port to run Pokemon Showdown under
 exports.port = 8000;
 
-// The server id - the id specified in the server registration.
-//   This should be set properly especially when there are more than one
-//   pokemon showdown server running from the same IP
-exports.serverId = 'ktnleague';
+// The server ID - a unique ID describing this Showdown server
+exports.serverid = 'pokecommunity';
+
+// The server token - to access the login database and ladder on pokemonshowdown.com
+//   This token must be registered for accessing the ladder, but you will
+//   still be able to login with an unregistered token.
+exports.servertoken = 'filler';
 
 // proxyIps - proxy IPs with trusted X-Forwarded-For headers
 //   This can be either false (meaning not to trust any proxies) or an array
