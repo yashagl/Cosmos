@@ -2,12 +2,12 @@
 exports.port = 8000;
 
 // The server ID - a unique ID describing this Showdown server
-exports.serverid = 'pokecommunity';
+exports.serverid = 'y';
 
 // The server token - to access the login database and ladder on pokemonshowdown.com
 //   This token must be registered for accessing the ladder, but you will
 //   still be able to login with an unregistered token.
-exports.servertoken = 'filler';
+exports.servertoken = '';
 
 // proxyIps - proxy IPs with trusted X-Forwarded-For headers
 //   This can be either false (meaning not to trust any proxies) or an array
@@ -233,7 +233,7 @@ exports.customavatars = {
 	'wolfmasin': 'wolfmasin.gif',
 	'sargentwolf': 'wolfmasin.gif',
 	'jrrkein': 'jrrkein.jpg',
-	'anrindas': 'anrindas.jpg',
+	'anrindas': 'anrindas.gif',
 	'anrinn': 'anrindas.jpg',
 	'thefattestsnorlax': 'thefattestsnorlax.gif',
 	'sri': 'warpaint.gif',
