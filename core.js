@@ -68,7 +68,7 @@ var core = exports.core = {
 
         color: 'royalblue',
 
-        avatarurl: 'http://cbc.pokecommunity.com/config',
+        avatarurl: 'http://107.161.19.94:8000',
 
         avatar: function (online, user, img) {
             if (online === true) {
