@@ -319,10 +319,6 @@ var core = exports.core = {
     },
 
     emoticons: {
-        ':(': 'http://factoryjoe.s3.amazonaws.com/emoticons/emoticon-0101-sadsmile.gif',
-        ':)': 'http://factoryjoe.s3.amazonaws.com/emoticons/emoticon-0100-smile.gif',
-        ';(': 'http://factoryjoe.s3.amazonaws.com/emoticons/emoticon-0106-crying.gif',
-        ';)': 'http://factoryjoe.s3.amazonaws.com/emoticons/emoticon-0105-wink.gif',
         ':absol:': 'http://cbc.pokecommunity.com/config/emoticons/absol.png',
 	':arceus:': 'http://cbc.pokecommunity.com/config/emoticons/arceus.png',
 	':armycat:': 'http://cbc.pokecommunity.com/config/emoticons/armycat.png',
@@ -388,6 +384,10 @@ var core = exports.core = {
 	':wynaut:': 'http://cbc.pokecommunity.com/config/emoticons/wynaut.png',
 	':y:': 'http://cbc.pokecommunity.com/config/emoticons/y.png',
 	':yoshi:': 'http://cbc.pokecommunity.com/config/emoticons/yoshi.png',
+	':(': 'http://factoryjoe.s3.amazonaws.com/emoticons/emoticon-0101-sadsmile.gif',
+        ':)': 'http://factoryjoe.s3.amazonaws.com/emoticons/emoticon-0100-smile.gif',
+        ';(': 'http://factoryjoe.s3.amazonaws.com/emoticons/emoticon-0106-crying.gif',
+        ';)': 'http://factoryjoe.s3.amazonaws.com/emoticons/emoticon-0105-wink.gif',
         ':$': 'http://factoryjoe.s3.amazonaws.com/emoticons/emoticon-0111-blush.gif',
         ':D': 'http://factoryjoe.s3.amazonaws.com/emoticons/emoticon-0102-bigsmile.gif',
         ':*': 'http://factoryjoe.s3.amazonaws.com/emoticons/emoticon-0109-kiss.gif',
@@ -429,6 +429,7 @@ var core = exports.core = {
         'crtSSoH': 'http://static-cdn.jtvnw.net/jtv_user_pictures/emoticon-3228-src-d4b613767d7259c4-28x28.png',
         'SSSsss': 'http://static-cdn.jtvnw.net/jtv_user_pictures/chansub-global-emoticon-5d019b356bd38360-24x24.png',
         'SwiftRage': 'http://static-cdn.jtvnw.net/jtv_user_pictures/chansub-global-emoticon-680b6b3887ef0d17-21x28.png',
+        'fukya': 'https://raw.github.com/stevoduhhero/datfeels/master/fukya.gif',
         'ResidentSleeper': 'http://static-cdn.jtvnw.net/jtv_user_pictures/chansub-global-emoticon-1ddcc54d77fc4a61-28x28.png'
     },
 
