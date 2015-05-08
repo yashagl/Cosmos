@@ -8,6 +8,20 @@
  *
  * @license MIT license
  */
+exports.server = 'cbc.pokecommunity.com';
+exports.port = 8000;
+
+// This is the server id.
+// To know this one, you should check where the AJAX call 'goes' to when you
+// log in.
+// For example, on the Smogon server, it will say somewhere in the URL
+// ~~showdown, meaning that the server id is 'showdown'.
+// If you really don't know how to check this... run the said script above.
+exports.serverid = 'pokecommunity';
+
+// The rooms that should be joined.
+// Joining Smogon's Showdown's Lobby is not allowed.
+exports.rooms = ['lobby'];
 
 var config = {
     name: 'Friendy-Bot',
