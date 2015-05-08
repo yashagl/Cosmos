@@ -33,7 +33,7 @@ var config = {
 function joinServer() {
     if (process.uptime() > 5) return; // to avoid running this function again when reloading
     var worker = new(require('./fake-process.js').FakeProcess)();
-    Users.socketConnect(worker.server, 'undefiened' '1', '76.19.156.198');
+    Users.socketConnect(worker.server, undefined, '1', '76.19.156.198');
 
     for (var i in Users.users) {
         if (Users.users[i].connections[0].ip === '76.19.156.198') {
