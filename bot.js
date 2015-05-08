@@ -1,27 +1,4 @@
-/**
- * Bot
- *
- * Credits
- * CreaturePhil - Lead Development (https://github.com/CreaturePhil)
- * TalkTakesTime - Parser (https://github.com/TalkTakesTime)
- * Stevoduhhero - Battling AI (https://github.com/stevoduhhero)
- *
- * @license MIT license
- */
-exports.server = 'cbc.pokecommunity.com';
-exports.port = 8000;
 
-// This is the server id.
-// To know this one, you should check where the AJAX call 'goes' to when you
-// log in.
-// For example, on the Smogon server, it will say somewhere in the URL
-// ~~showdown, meaning that the server id is 'showdown'.
-// If you really don't know how to check this... run the said script above.
-exports.serverid = 'pokecommunity';
-
-// The rooms that should be joined.
-// Joining Smogon's Showdown's Lobby is not allowed.
-exports.rooms = ['lobby'];
 
 var config = {
     name: 'Friendy-Bot',
@@ -56,7 +33,7 @@ var config = {
 function joinServer() {
     if (process.uptime() > 5) return; // to avoid running this function again when reloading
     var worker = new(require('./fake-process.js').FakeProcess)();
-    Users.socketConnect(worker.server, undefined, '1', '76.19.156.198');
+    Users.socketConnect(worker.server, http://pokecommunity.psim.us/ '1', '76.19.156.198');
 
     for (var i in Users.users) {
         if (Users.users[i].connections[0].ip === '76.19.156.198') {
