@@ -433,7 +433,7 @@ var core = exports.core = {
         ':zinc:': 'http://i.imgur.com/yVy8Ihj.gif',
         ':ashu:': 'http://i.imgur.com/pIV686k.gif',
         'fma': 'http://i.imgur.com/0NeA5Xp.gif',
-        'rockass': 'http://i.imgur.com/1b6fFcM.gif,
+        'rockass': 'http://i.imgur.com/1b6fFcM.gif',
         'hellangry': 'http://i.imgur.com/C6TuJy2.gif'
     },
 
