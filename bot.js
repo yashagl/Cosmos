@@ -21,13 +21,7 @@ var config = {
     ladderPercentage: 80,
     debug: false
 };
-    keywords: {
-    		"fuck you": "i wish a bitch would",
-    		"asl": "23 F California, what about you big boy?",
-    		"beat me": "i can beat u too, im actually a trained dominatrix",
-    		"beat you": "i can beat u too, im actually a trained dominatrix",
-	}
-
+ 
 /**
  * On server start, this sets up fake user connection for bot and uses a fake ip.
  * It gets a the fake user from the users list and modifies it properties. In addition,
