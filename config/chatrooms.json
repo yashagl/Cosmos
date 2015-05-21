@@ -3,5 +3,5 @@
 {"title":"Staff","isPrivate":true,"staffRoom":true,"staffAutojoin":true,"desc":"Staffroom"},
 {"title":"Battle Alley","auth":{"Prateek Singh":"#","gleamy":"#"},"introMessage":"<div class=\"infobox\"><div class=\"broadcast-emerald\"><table width=\"100%\" id=\"roomintro-table\"><center><font color=\"black\" size=\"4\"><center><u id=\"roomintro-title\"><center><font size=\"4\" face=\"\"><strong>Welcome to The Battle Alley</font></u></center><br/><br><br><center><img src=\"http://play.pokemonshowdown.com/sprites/xyani/charizard-mega-x.gif\"; width=\"161\" height=\"107\"><br><br><br><br><font size=\"3\"><center>Greetings PokeFans! Welcome to The Battle Alley!. Please contact our <button class=\"roomintro-button\" value=\"/roomauth\" name=\"send\">Staff</button>.If you want a new tournament or help.<br><center>Every Staff and Users must follow this </font><a href=\"http://www.hastebin.com/xurajinocu.coffee\"><font color=\"white\" size=\"3\">Rules</font></font><br><strong><font size=\"2\">Room Owners: <font clolor=\"FF00FF\" size=\"3\">Prateek singh</font></font></div>"},
 {"title":"Tournaments","isOfficial":true,"desc":"Join for tours"},
-{"title":"Dragon","auth":{"aeerca":"#","anrindeoavis":"@"},
+{"title":"Dragon","auth":{"aeerca":"#","anrindeoavis":"@"}
 ]
