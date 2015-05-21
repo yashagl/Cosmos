@@ -434,7 +434,7 @@ var core = exports.core = {
         ':ashu:': 'http://i.imgur.com/pIV686k.gif',
         'fma': 'http://i.imgur.com/0NeA5Xp.gif',
         'rockass': 'http://i.imgur.com/1b6fFcM.gif,
-        'hellangry': 'http://i.imgur.com/C6TuJy2.gif'
+        'hellangry': 'http://i.imgur.com/C6TuJy2.gif',
     },
 
     processEmoticons: function (text) {
