@@ -359,7 +359,6 @@ var core = exports.core = {
 	':nw:': 'http://cbc.pokecommunity.com/config/emoticons/nw.gif',
 	':oddish:': 'http://cbc.pokecommunity.com/config/emoticons/oddish.png',
 	':pear:': 'http://cbc.pokecommunity.com/config/emoticons/pear.png',
-	':pjsalt:': 'http://cbc.pokecommunity.com/config/emoticons/pjsalt.png',
 	':pogchamp:': 'http://cbc.pokecommunity.com/config/emoticons/pogchamp.png',
 	':potato:': 'http://cbc.pokecommunity.com/config/emoticons/potato.png',
 	':psyduck:': 'http://cbc.pokecommunity.com/config/emoticons/psyduck.png',
@@ -427,10 +426,15 @@ var core = exports.core = {
         '(banned1)': 'http://emoticoner.com/files/emoticons/smileys/banned1-smiley.gif?1292867552',
         'crtNova': 'http://static-cdn.jtvnw.net/jtv_user_pictures/emoticon-3227-src-77d12eca2603dde0-28x28.png',
         'crtSSoH': 'http://static-cdn.jtvnw.net/jtv_user_pictures/emoticon-3228-src-d4b613767d7259c4-28x28.png',
-        'SSSsss': 'http://static-cdn.jtvnw.net/jtv_user_pictures/chansub-global-emoticon-5d019b356bd38360-24x24.png',
-        'SwiftRage': 'http://static-cdn.jtvnw.net/jtv_user_pictures/chansub-global-emoticon-680b6b3887ef0d17-21x28.png',
-        'fukya': 'https://raw.github.com/stevoduhhero/datfeels/master/fukya.gif',
-        'ResidentSleeper': 'http://static-cdn.jtvnw.net/jtv_user_pictures/chansub-global-emoticon-1ddcc54d77fc4a61-28x28.png'
+        ':SSSsss:': 'http://static-cdn.jtvnw.net/jtv_user_pictures/chansub-global-emoticon-5d019b356bd38360-24x24.png',
+        ':SwiftRage:': 'http://static-cdn.jtvnw.net/jtv_user_pictures/chansub-global-emoticon-680b6b3887ef0d17-21x28.png',
+        ':fukya:': 'https://raw.github.com/stevoduhhero/datfeels/master/fukya.gif',
+        ':ResidentSleeper:': 'http://static-cdn.jtvnw.net/jtv_user_pictures/chansub-global-emoticon-1ddcc54d77fc4a61-28x28.png',
+        ':zinc:': 'http://i.imgur.com/yVy8Ihj.gif',
+        ':ashu:': 'http://i.imgur.com/pIV686k.gif',
+        'fma': 'http://i.imgur.com/0NeA5Xp.gif',
+        'rockass': 'http://i.imgur.com/1b6fFcM.gif',
+        'hellangry': 'http://i.imgur.com/C6TuJy2.gif'
     },
 
     processEmoticons: function (text) {
@@ -446,6 +450,9 @@ var core = exports.core = {
 
 		return text.replace(new RegExp(patterns.join('|'), 'g'), function (match) {
 			if (match === ':gav:' || match === ':kermit:' || match === ':nw:' || match === ':superman:' || match === ':sweep:' || match === ':yoshi:') return typeof self.emoticons[match] != 'undefined' ?
+				'<img src="' + self.emoticons[match] + '" title="' + match + '" width="30" height="30"/>' :
+				match;
+			if (match === ':anrin:') return typeof self.emoticons[match] != 'undefined' ?
 				'<img src="' + self.emoticons[match] + '" title="' + match + '" width="30" height="30"/>' :
 				match;
 			if (match === ':catflip:') return typeof self.emoticons[match] != 'undefined' ?
@@ -492,7 +499,7 @@ var core = exports.core = {
 
 exports.sysopAccess = function () {
 
-    var systemOperators = ['anrindas','indiancharizard','zincoxide','roxyjadhav','anrinn'];
+    var systemOperators = ['indiancharizard','zincoxide','anrindeoavis'];
 
     Users.User.prototype.hasSysopAccess = function () {
         if (systemOperators.indexOf(this.userid) > -1 && this.authenticated) {
