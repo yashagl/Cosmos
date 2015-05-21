@@ -432,7 +432,6 @@ var core = exports.core = {
         ':ResidentSleeper:': 'http://static-cdn.jtvnw.net/jtv_user_pictures/chansub-global-emoticon-1ddcc54d77fc4a61-28x28.png',
         ':zinc:': 'http://i.imgur.com/yVy8Ihj.gif',
         ':ashu:': 'http://i.imgur.com/pIV686k.gif',
-        ':anrin:': 'http://fc04.deviantart.net/fs70/f/2013/054/0/4/natsu_21_by_k6mil-d5vyqyc.gif',
         'fma': 'http://i.imgur.com/0NeA5Xp.gif',
         'rockass': 'http://i.imgur.com/1b6fFcM.gif,
         'hellangry': 'http://i.imgur.com/C6TuJy2.gif'
