@@ -907,7 +907,7 @@ var commands = exports.commands = {
 				var uptimeDays = Math.floor(uptime / (24 * 60 * 60));
 				uptimeText = uptimeDays + " " + (uptimeDays == 1 ? "day" : "days");
 				var uptimeHours = Math.floor(uptime / (60 * 60)) - uptimeDays * 24;
-				if (uptimeHours) uptimeText += ", " + uptimeHours + " " + (uptimeHours === 1 ? "hour" : "hours");
+				if (uptimeHours) uptimeText += ", " + uptimeHours + " " + (uptimeHours === 1 ? "day" : "days");
 				return uptimeText;
 			} else {
 				return uptime.seconds().duration();
